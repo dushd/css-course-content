@@ -14,17 +14,25 @@ font-family: 'Yellowtail', cursive;
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    color: #EBD4D4;
+    margin: 0px;
 }
 
 h1 {
     font-family: 'Yellowtail', cursive;
+    font-size: 2.4rem;
+    color: #F19B95;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
+    color: #F9EADA;
 }
 
 #main {
+    background-color: #439093;
+    padding: 0.5rem;
+
     display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: auto;
