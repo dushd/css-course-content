@@ -1,5 +1,27 @@
+/*
+
+font-family: 'Open Sans', sans-serif;   light 300, bold 700
+font-family: 'Yellowtail', cursive;
+
+#439093
+#E8DC89
+#F9EADA
+#EBD4D4
+#F19B95
+
+*/
+
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 #main {
