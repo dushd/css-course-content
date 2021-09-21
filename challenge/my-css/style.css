@@ -35,6 +35,11 @@ h2 {
 a {
     text-decoration: none;
     color: #F19B95;
+    transition: all 80ms ease-out;
+}
+
+a:hover {
+    color: #F9EADA;
 }
 
 #main {
@@ -75,6 +80,18 @@ a {
 .sidebar {
     padding: 0rem 2rem;
 }
+
+.post {
+    margin: 2rem 0rem;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #E8DC89;
+
+}
+
+.post-title {
+    margin: 0.5rem 0rem;
+}
+
 img {
     width: 250px;
 }
