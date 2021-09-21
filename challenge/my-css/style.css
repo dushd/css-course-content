@@ -32,6 +32,11 @@ h2 {
     color: #F9EADA;
 }
 
+a {
+    text-decoration: none;
+    color: #F19B95;
+}
+
 #main {
     background-color: #439093;
     padding: 0.5rem;
@@ -42,7 +47,11 @@ h2 {
 }
 
 .content {
-    padding: 0.5rem 1rem;
+    padding: 0rem 1rem;
+}
+
+.section {
+    margin: 3rem 0rem;
 }
 
 .para-1 {
@@ -64,7 +73,7 @@ h2 {
 }
 
 .sidebar {
-    padding: 0.5rem 1rem;
+    padding: 0rem 2rem;
 }
 img {
     width: 250px;
