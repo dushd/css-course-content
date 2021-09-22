@@ -17,6 +17,7 @@ font-family: 'Yellowtail', cursive;
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #439093;
     color: #EBD4D4;
     margin: 0px;
 }
@@ -52,7 +53,7 @@ hr {
 }
 
 #main {
-    background-color: #439093;
+    min-height: 100vh;
     padding: 0.5rem;
 
     display: grid;
@@ -62,6 +63,7 @@ hr {
 
 .content {
     padding: 0rem 1rem;
+    animation: page-load 900ms ease-in 0s 1 forwards;
 }
 
 .section {
@@ -88,19 +90,36 @@ hr {
 
 .sidebar {
     padding: 0rem 2rem;
+    animation: page-load 900ms ease-in 300ms 1 both;
 }
 
 .post {
     margin: 2rem 0rem;
     padding: 0.3rem 0.5rem;
     border: 1px solid #E8DC89;
-
+    border-radius: 0.9rem 0.3rem;
 }
 
 .post-title {
     margin: 0.5rem 0rem;
 }
 
-img {
+#image-1 {
+    margin: 0.3rem;
     width: 250px;
+}
+
+.image-grid img {
+    margin: 0.3rem;
+    width: 250px;
+    transition: all 90ms ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes page-load {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
 }
