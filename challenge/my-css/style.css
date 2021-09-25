@@ -112,7 +112,7 @@ hr {
 .image-grid img {
     margin: 0.3rem;
     width: 250px;
-    transition: all 90ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .image-grid img:hover {
