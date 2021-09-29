@@ -145,14 +145,22 @@ hr {
 
 /* 1920px */
 @media (min-width: 120em) {
-    body {
+    html {
         font-size: calc(1em * 1.4);
     }
 }
 
 /* 2560px */
 @media (min-width: 160em) {
-    /* body {
-        font-size: calc(1em * 1.6);
-    } */
+    html {
+        font-size: calc(1em * 3);
+    }
+
+    #image-1 {
+        width: 550px;
+    }
+
+    .image-grid img {
+        width: 550px;
+    }
 }
